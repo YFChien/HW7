@@ -15,8 +15,8 @@ int main(void)
     FILE *in,*out;
     int cnt;
     char str[100];
-    in = fopen("welcome.txt","r");
-    out=fopen("output.txt","w");
+    in = fopen("welcome3.txt","r");
+    out=fopen("output3.txt","w");
     while(!feof(in))
     {
        cnt=fscanf(in,"%s",str);

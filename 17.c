@@ -15,7 +15,7 @@ int main(void)
     FILE *fptr;
     char str[MAX];
     int bytes;
-    fptr = fopen("output.txt","r");
+    fptr = fopen("output2.txt","r");
     while(!feof(fptr))
     {
         bytes=fread(str,sizeof(char),MAX-1,fptr);

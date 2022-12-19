@@ -14,8 +14,8 @@ int main(void)
     FILE *fptr1,*fptr2;
     char ch;
     
-    fptr1 = fopen("welcome.txt","r");
-    fptr2 = fopen("output.txt","w");
+    fptr1 = fopen("welcome1.txt","r");
+    fptr2 = fopen("output1.txt","w");
     if((fptr1 != NULL) &&(fptr2 != NULL))
     {
         while((ch=getc(fptr1)) != EOF)
